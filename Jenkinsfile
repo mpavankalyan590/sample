@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python3 sample_file.py'
+                sh '${WORKSPACE}/python3 sample_file.py'
             }
         }
     }
