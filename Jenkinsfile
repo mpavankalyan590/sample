@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python3 /home/pmakka/Jenkins/sample_file.py'
+                sh 'python3 sample_file.py'
             }
         }
     }
